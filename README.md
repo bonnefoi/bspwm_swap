@@ -3,7 +3,7 @@ This a solution to allow bspwm to **swap** the terminal window with the window o
 
 *This script use the hidden state of a window maintained by bspwm to hide the terminal window and swap its position with the window created by the last command.*
 
-*It uses the *events* provided by **bspwm** to watch when the window of the last command is closed to unhide the shell's window.*
+*It uses the *events* provided by **bspwm** to watch when the window of the last command is closed to unhide the terminal's window.*
 
 You use the script by launching it with the command as arguments:
 ```
