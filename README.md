@@ -10,15 +10,15 @@ You use the script by launching it with the command as arguments:
 $ swap sxiv my_picture.jpg
 ```
 
-You could also use the provided zsh widget to use a shortcut to substitute the return key by <ctrl-p> to change the behavior :
+You could also use the provided **zsh widget** to use a shortcut to substitute the return key by <ctrl-p> to change the behavior of the command:
 ```
 $ sxiv my_picture.jpg <return>
 ```
-launches the command without swapping.
+launches the command without swapping: the window of the command is added to your current desktop.
 ```
 $ sxiv my_picture.jpg <ctrl-p>
 ```
-launches the command with swapping.
+launches the command with swapping: the window of the command replace the terminal window until its ending.
 
 You could also rename the script as "sins", 'Swapping Is Not Swallowing" if you want :)
 
