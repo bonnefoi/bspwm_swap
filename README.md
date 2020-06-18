@@ -21,3 +21,5 @@ $ sxiv my_picture.jpg <ctrl-p>
 launches the command with swapping.
 
 You could also rename the script as "sins", 'Swapping is not swallowing" if you want :)
+
+*Another version of the script called ```other_version``` uses the pid of the launched command to unhide the shell's window but don't use any events. This version exhibits a little bit of flickering as the window is closed before the command exits.*
