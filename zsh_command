@@ -1,0 +1,9 @@
+run_replace () {
+echo
+eval swap $BUFFER
+BUFFER=''
+zle reset-prompt
+}
+
+zle -N run_replace
+bindkey '^P' run_replace
